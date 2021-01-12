@@ -17,10 +17,8 @@ class weather(Resource):
     def get(self):
         cities = WeatherModel.query.all()
         url = "http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&APPID=ae0433e337f9bf12a18792179628c98d"
-        report = []
-        for city in cities:
-            report.append(city.name)
-        return {"report": report}
+
+        pass
 
 class weather_upload(Resource):
     def post(self, name):
