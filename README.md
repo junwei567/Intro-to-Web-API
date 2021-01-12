@@ -1,9 +1,16 @@
 Introduction to Web API with Python and Flask
 ===
-
+SUTD Independent Activity Period
 ## Table of Contents
 
-[TOC]
+* [Introduction to Web API with Python and Flask](#introduction-to-web-api-with-python-and-flask)
+    * [Table of Contents](#table-of-contents)
+    * [Making a request to an API](#making-a-request-to-an-api)
+        * [Method 1](#method-1)
+        * [Method 2](#method-2)
+    * [Flask RESTful](#flask-restful)
+    * [SQLite](#sqlite)
+    * [Author](#author)
 
 ## Making a request to an API
 
